@@ -7,6 +7,6 @@ For the product matching task, this thesis builds models from two perspectives: 
 
 EDA代码1：https://www.kaggle.com/code/brianna1307/rapids-cuml-tfidfvectorizer-and-knn
 
-EDA代码2:https://www.kaggle.com/code/brianna1307/indepth-eda）
+EDA代码2:https://www.kaggle.com/code/brianna1307/indepth-eda
 
-模型建立与训练代码:https://www.kaggle.com/code/brianna1307/part-2-rapids-tfidfvectorizer-cv-0-700）
+模型建立与训练代码:https://www.kaggle.com/code/brianna1307/part-2-rapids-tfidfvectorizer-cv-0-700
