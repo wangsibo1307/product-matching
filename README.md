@@ -5,8 +5,8 @@
 With the rapid development of e-commerce industry, more and more consumers choose to shop online, and the real economy is gradually transforming into a digital economy. In order to help consumers achieve fast product comparison, techniques such as computer vision and natural language processing in deep learning can be applied to product matching research.
 For the product matching task, this thesis builds models from two perspectives: product image matching and product text matching. In the product image matching, the baseline network EfficientNet-B0 in the more advanced convolutional neural network series is selected. First, EfficientNet-B0 is used to extract the product image features, and then the KNN model is used to find the product with the best matching image features. In the product text matching, the TF-IDF model is used to determine the importance of different words from the product title. The text feature vector of the product title is then extracted by finding the words that represent the corresponding product. Then, according to the cosine similarity algorithm, the similarity measurement of the representative words in the titles of different products is carried out, and the product with the best matching text features is obtained. Finally, the predicted products based on product image matching are fused with the predicted products based on product text matching in a multimodal manner to obtain the final product matching results, and the final F1-score is 0.70.
 
-EDA代码1：https://www.kaggle.com/code/brianna1307/rapids-cuml-tfidfvectorizer-and-knn
+EDA代码1：https://www.kaggle.com/code/brianna1307/eda-part1
 
-EDA代码2:https://www.kaggle.com/code/brianna1307/indepth-eda
+EDA代码2：https://www.kaggle.com/code/brianna1307/eda-part2
 
-模型建立与训练代码:https://www.kaggle.com/code/brianna1307/part-2-rapids-tfidfvectorizer-cv-0-700
+模型建立与训练代码：https://www.kaggle.com/code/brianna1307/model-building-and-training
